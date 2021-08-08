@@ -1,7 +1,7 @@
-const Products = [
+const productData = [
     {
         id: 1,
-        image: "../../image/LAptop.jpg",
+        image: "../../public/image/LAptop.jpg",
         category: "laptop",
         name: 'Apple Macbook',
         price: "2000",
@@ -9,7 +9,7 @@ const Products = [
     },
     {
         id: 2,
-        image: "../../image/Apple-iPhone-11.jpg",
+        image: "../../public/image/Apple-iPhone-11.jpg",
         category: "mobile",
         name: "samsung Mobile",
         price: "2000",
@@ -49,4 +49,4 @@ const Products = [
     },
 ]
 
-export default Products;
+export default productData;

@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home';
+import React from "react";
+import Home from "./components/Home";
+import Cart from "./components/Cart";
+import { CartProvider } from "react-use-cart";
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-    </div>
+    <>
+      <CartProvider>
+        <Home />
+        <Cart />
+      </CartProvider>
+    </>
   );
 }
 
 export default App;
+ 
